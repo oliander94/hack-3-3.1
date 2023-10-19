@@ -1,0 +1,71 @@
+/*-------------------- Float styles----------------------- */
+
+*:root{
+    --clr-wine: #AB2849;
+    --clr-blue: #93B5C9;
+    --clr-white: #fafafa;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    height: 15vh;
+    background-color: var(--clr-blue);
+}
+
+main{
+    height: 75vh;
+}
+
+main section{
+    height: 23vh;
+    margin-bottom: 2vh;
+    background-color: var(--clr-wine);
+}
+
+main .container{
+    height: 50vh;
+
+}
+
+.container>div{
+    height: 10.5vh;
+    margin-bottom: 2vh;
+
+}
+.container>div:nth-child(even){
+    background-color: var(--clr-white);
+}
+
+.container>div:nth-child(odd){
+    background-color: var(--clr-wine);
+}
+
+
+.bloc{
+    width: 75%;
+    margin: auto;
+
+}
+.bloc2, .bloc4{
+    width: 49.7%;
+    height: 100%;
+    background-color: var(--clr-wine);
+}
+
+.bloc2:nth-child(1), .bloc4:nth-child(1){
+    float: right;
+}
+
+
+footer{
+    height: 9vh;
+    margin-bottom:1vh;
+    background-color: var(--clr-wine);
+}
